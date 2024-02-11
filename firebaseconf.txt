@@ -1,0 +1,39 @@
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyAQHvlRpz43Vk1tVQ3bH1rbtXE_SoFMp2M",
+  authDomain: "smash-combo-app.firebaseapp.com",
+  projectId: "smash-combo-app",
+  storageBucket: "smash-combo-app.appspot.com",
+  messagingSenderId: "970490346825",
+  appId: "1:970490346825:web:f9fc414f02d6ed2be02e98"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+
+
+
+
+firebase hoting
+
+
+You can deploy now or later. To deploy now, open a terminal window, then navigate to or create a root directory for your web app.
+
+Sign in to Google
+firebase login
+Initiate your project
+Run this command from your app's root directory:
+
+firebase init
+When you're ready, deploy your web app
+Put your static files (e.g., HTML, CSS, JS) in your app's deploy directory (the default is "public"). Then, run this command from your app's root directory:
+
+firebase deploy
+After deploying, view your app at smash-combo-app.web.app
+
+Need help? Check out the Hosting docs

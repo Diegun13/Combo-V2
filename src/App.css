@@ -1,0 +1,19 @@
+
+.ImgCon{
+    background-color: blue;
+}
+
+
+.MainContainter{
+display: grid;
+grid-template-columns: 10rem auto;
+}
+.NavTab{
+    background-color: red;
+}
+
+.ComboTab{
+    background-color: blue;
+    display: flex;
+    height: 
+}
